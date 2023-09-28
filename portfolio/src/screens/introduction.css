@@ -1,0 +1,250 @@
+body {
+  background-color: #ffffdd;
+  margin: 0;
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+h1 {
+  margin: auto;
+  line-height: 2;
+}
+
+a {
+  color: #fca652;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 10px;
+  color: #444;
+}
+
+hr {
+  margin: 100px auto;
+  border-style: dotted none none;
+  height: 2px;
+  width: 7%;
+  border-width: 10px;
+  border-color: #697c37;
+}
+
+/* Top Container Section */
+.top-container {
+  background-color: #78c1f3;
+}
+
+.license {
+  display: none;
+}
+
+#header {
+  padding-top: 50px;
+  font-size: 4rem;
+  color: #12486b;
+  font-family: 'Delius Swash Caps', cursive;
+}
+
+#bio {
+  padding: 0;
+  font-size: 1.875rem;
+  color: #12486b;
+  font-weight: normal;
+}
+
+#showcase {
+  width: 30%;
+  height: 30%;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+
+/* Greeting Container Section */
+.greeting-container {
+  padding-top: 20px;
+}
+
+.greeting-container h1 {
+  font-size: 3.125rem;
+  color: #12486b;
+}
+
+.greeting-container p {
+  font-size: 1.875rem;
+  color: #333;
+  padding: 15px;
+  margin: 0;
+  display: inline-block;
+  width: 50%;
+}
+
+#portfolio-img {
+  background-size: cover;
+  border-radius: 50% 50% 50% 50%;
+  width: 20%;
+  margin: 1rem;
+}
+
+/* Skills Section */
+.skills-container h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 3.125rem;
+  color: #12486b;
+}
+
+.skills-container h3 {
+  font-size: 1.875rem;
+  color: #419197;
+  margin: 0;
+  /*float: left;*/
+}
+
+.skill-row {
+  width: 50%;
+  height: 200px;
+  margin: 80px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.coding-img {
+  border-radius: 50% 50% 50% 50%;
+  width: 30%;
+  float: left;
+  margin: 0 30px 0 0;
+}
+
+.development-skill-bio {
+  padding-top: 25px;
+}
+
+.tennis-img {
+  border-radius: 50% 50% 50% 50%;
+  width: 30%;
+  float: right;
+  margin: 0 0 0 30px;
+}
+
+/* Contact Me Section */
+.contact-me-container {
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me-container h1 {
+  color: #12486b;
+}
+
+.contact-me-container h3 {
+  color: #419197;
+}
+
+.contact-me-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 2.8rem;
+  background-color: #71a95a;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+  border: 2px solid transparent;
+}
+
+.contact-me-btn:hover {
+  background: #ffffff;
+  color: #71a95a;
+  border: solid #71a95a 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* Footer Section */
+.footer {
+  height: 150px;
+  background-color: #649d66;
+  font-size: 20px;
+}
+
+.footer-link {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 30px;
+  color: #555;
+  position: relative;
+  top: 40px;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer p {
+  color: #fff;
+  position: relative;
+  top: 50px;
+}
+
+/* Changes in website style on screens of size 600px or smaller (Tablet) */
+/*@media (max-width: 600px) {
+  .skill-row {
+    margin: 80px auto 130px;
+  }
+}*/
+
+/* Changes in website style on screens of size 600px or smaller (Mobile) */
+@media (max-width: 600px) {
+  #header {
+    font-size: 3.125rem;
+  }
+
+  #bio {
+    font-size: 1.5625rem;
+  }
+
+  #showcase {
+    width: 60%;
+    height: 60%;
+  }
+
+  #portfolio-img {
+    width: 40%;
+  }
+
+  .greeting-container p {
+    width: 60%;
+  }
+
+  .skill-row {
+    margin: 80px auto 130px;
+  }
+
+  .contact-me-container {
+    width: 55%;
+  }
+
+  .footer {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .footer-link {
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
